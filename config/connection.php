@@ -2,10 +2,10 @@
 require_once __DIR__ . '/app.php';
 
 // Sesuaikan dengan konfigurasi server lokal. Untuk produksi, gunakan environment variables.
-$host = getenv('DB_HOST') ?: "sql103.infinityfree.com";
-$user = getenv('DB_USER') ?: "if0_43230179";
-$pass = getenv('DB_PASS') !== false ? getenv('DB_PASS') : "JjYhwrrFtthpJ5";
-$db   = getenv('DB_NAME') ?: "if0_43230179_buku_ukk_v1";
+$host = getenv('DB_HOST') ?: "localhost";
+$user = getenv('DB_USER') ?: "root";
+$pass = getenv('DB_PASS') !== false ? getenv('DB_PASS') : "";
+$db   = getenv('DB_NAME') ?: "buku_ukk_v1";
 
 $conn = new mysqli($host, $user, $pass, $db);
 
