@@ -4,7 +4,7 @@ PERPUSTAKAAN - VERSI DIPERBAIKI
 2. Letakkan folder project sebagai:
    C:\xampp\htdocs\perpustakaan
 3. Import:
-   database/buku.sql
+   database/buku_v1.sql
    ke database bernama: buku
 4. Buka:
    http://localhost/perpustakaan/
