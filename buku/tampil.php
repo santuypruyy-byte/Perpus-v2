@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 /**
  * ============================================================================
  * FILE: buku/tampil.php (Daftar Koleksi Buku - Halaman Admin)
@@ -15,6 +16,8 @@
  *    dan mengubah nilai NULL menjadi 0 agar perhitungan `$tersedia = $stok - $dipinjam` akurat.
  * ============================================================================
  */
+=======
+>>>>>>> d3a474d9f86ca513d111ac9b325518e17d65db66
 require_once __DIR__ . '/../includes/auth.php';
 requireAdmin();
 

@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 /**
  * ============================================================================
  * FILE: user/index.php (Manajemen Akun Pengguna / Login Sistem)
@@ -8,6 +9,9 @@
  * dengan data anggota, serta mencegah Admin menghapus akunnya sendiri yang sedang aktif.
  * ============================================================================
  */
+=======
+
+>>>>>>> d3a474d9f86ca513d111ac9b325518e17d65db66
 require_once __DIR__ . '/../includes/auth.php';
 requireAdmin();
 

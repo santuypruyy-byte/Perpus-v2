@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 /**
  * ============================================================================
  * FILE: bookmark/index.php (Halaman Koleksi Bookmark Pribadi User)
@@ -7,6 +8,8 @@
  * Menampilkan daftar buku yang telah disimpan (di-bookmark) oleh pengguna yang sedang login.
  * ============================================================================
  */
+=======
+>>>>>>> d3a474d9f86ca513d111ac9b325518e17d65db66
 require_once __DIR__ . '/../includes/auth.php';
 requireLogin();
 require_once __DIR__ . '/../config/connection.php';

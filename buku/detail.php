@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 /**
  * ============================================================================
  * FILE: buku/detail.php (Halaman Detail Lengkap Buku, Rating & Bookmark)
@@ -13,6 +14,8 @@
  * 3. Menghitung sisa stok fisik yang bisa dipinjam (`jumlah_stok - jumlah_dipinjam`).
  * ============================================================================
  */
+=======
+>>>>>>> d3a474d9f86ca513d111ac9b325518e17d65db66
 require_once __DIR__ . "/../includes/auth.php";
 requireLogin();
 

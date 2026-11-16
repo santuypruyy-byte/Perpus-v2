@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 /**
  * ============================================================================
  * FILE: includes/sidebar.php (Menu Navigasi Samping / Sidebar Dinamis)
@@ -13,6 +14,8 @@
  * 4. User biasa hanya melihat menu Dashboard, Koleksi Buku, Peminjaman, Riwayat, dan Bookmark.
  * ============================================================================
  */
+=======
+>>>>>>> d3a474d9f86ca513d111ac9b325518e17d65db66
 $currentPage = basename($_SERVER['PHP_SELF']);
 $level = $_SESSION['level'] ?? '';
 $isAdmin = $level === 'admin';

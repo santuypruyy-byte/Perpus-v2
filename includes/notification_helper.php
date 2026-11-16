@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 /**
  * ============================================================================
  * FILE: includes/notification_helper.php (Helper Pengiriman Notifikasi Internal)
@@ -13,6 +14,8 @@
  *    notifikasi ke masing-masing admin (misal saat ada pengajuan pinjam buku baru).
  * ============================================================================
  */
+=======
+>>>>>>> d3a474d9f86ca513d111ac9b325518e17d65db66
 function addNotification(mysqli $conn, int $userId, string $judul, string $pesan, string $tipe = 'info'): void
 {
     if ($userId < 1) return;

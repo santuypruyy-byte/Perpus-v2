@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 /**
  * ============================================================================
  * FILE: aksi/bookmark.php (Aksi Simpan / Hapus Bookmark Buku)
@@ -8,6 +9,8 @@
  * sistem akan menambahkannya (`INSERT`); jika sudah ada, sistem akan menghapusnya (`DELETE`).
  * ============================================================================
  */
+=======
+>>>>>>> d3a474d9f86ca513d111ac9b325518e17d65db66
 require_once __DIR__ . '/../includes/auth.php';
 requireLogin();
 requireValidCsrf();

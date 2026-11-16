@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 /**
  * ============================================================================
  * FILE: config/app.php (Konfigurasi Dasar & Helper Global Aplikasi)
@@ -15,6 +16,8 @@
  * 4. Menyediakan fungsi e() sebagai pembungkus htmlspecialchars() untuk keamanan tampilan HTML.
  * ============================================================================
  */
+=======
+>>>>>>> d3a474d9f86ca513d111ac9b325518e17d65db66
 // Konfigurasi dasar aplikasi.
 // Path dibuat otomatis agar project tetap bisa dijalankan
 // dari root AWebServer maupun dari dalam subfolder.

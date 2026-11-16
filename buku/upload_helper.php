@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 /**
  * ============================================================================
  * FILE: buku/upload_helper.php (Helper Validasi & Keamanan Upload File)
@@ -13,6 +14,8 @@
  * 3. Mengubah nama file menjadi kode acak (`random_bytes`) sebelum dipindahkan ke folder tujuan.
  * ============================================================================
  */
+=======
+>>>>>>> d3a474d9f86ca513d111ac9b325518e17d65db66
 require_once __DIR__ . '/../includes/book_cover_helper.php';
 
 function uploadFileBuku($fieldName, $allowedMime, $maxBytes, $prefix = 'file_', $required = false, $folderName = 'ebooks')

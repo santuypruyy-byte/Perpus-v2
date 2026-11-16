@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 /**
  * ============================================================================
  * FILE: auth/login.php (Proses Autentikasi / Masuk ke Sistem)
@@ -17,6 +18,8 @@
  *    simpan data user ke $_SESSION, lalu arahkan ke dashboard.
  * ============================================================================
  */
+=======
+>>>>>>> d3a474d9f86ca513d111ac9b325518e17d65db66
 require_once __DIR__ . '/../includes/auth.php';
 require_once __DIR__ . '/../config/connection.php';
 

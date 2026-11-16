@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 /**
  * ============================================================================
  * FILE: transaksi/pengembalian.php (Persetujuan Pinjam & Pengembalian Buku + Denda)
@@ -21,6 +22,8 @@
  *      'sudah dikembalikan' (yang otomatis mengembalikan ketersediaan stok buku).
  * ============================================================================
  */
+=======
+>>>>>>> d3a474d9f86ca513d111ac9b325518e17d65db66
 require_once __DIR__ . '/../includes/auth.php';
 requireLogin();
 requireAdmin();

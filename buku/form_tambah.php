@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 /**
  * ============================================================================
  * FILE: buku/form_tambah.php (Form Input Tambah Buku Baru)
@@ -13,6 +14,8 @@
  *    (karena mendukung upload file gambar sampul dan PDF e-book) ke file `buku/tambah.php`.
  * ============================================================================
  */
+=======
+>>>>>>> d3a474d9f86ca513d111ac9b325518e17d65db66
 require_once __DIR__ . '/../includes/auth.php';
 requireAdmin();
 

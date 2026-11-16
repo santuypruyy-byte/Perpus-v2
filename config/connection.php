@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 /**
  * ============================================================================
  * FILE: config/connection.php (Koneksi Database MySQLi)
@@ -14,6 +15,8 @@
  * 4. Mengatur charset menjadi `utf8mb4` agar mendukung seluruh karakter teks dan emoji.
  * ============================================================================
  */
+=======
+>>>>>>> d3a474d9f86ca513d111ac9b325518e17d65db66
 require_once __DIR__ . '/app.php';
 
 // Sesuaikan dengan konfigurasi server lokal. Untuk produksi, gunakan environment variables.

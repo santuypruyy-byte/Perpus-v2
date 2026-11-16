@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 /**
  * ============================================================================
  * FILE: rak/form.php (Form Tambah & Edit Data Rak Buku)
@@ -8,6 +9,8 @@
  * rak tersebut dengan kategori buku tertentu.
  * ============================================================================
  */
+=======
+>>>>>>> d3a474d9f86ca513d111ac9b325518e17d65db66
 require_once __DIR__ . '/../includes/auth.php';
 requireAdmin();
 require_once __DIR__ . '/../config/connection.php';

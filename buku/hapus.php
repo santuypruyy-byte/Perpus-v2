@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 /**
  * ============================================================================
  * FILE: buku/hapus.php (Arsip / Soft Delete Data Buku)
@@ -13,6 +14,8 @@
  *    ke buku ini tetap utuh dan tidak rusak/error.
  * ============================================================================
  */
+=======
+>>>>>>> d3a474d9f86ca513d111ac9b325518e17d65db66
 require_once __DIR__ . '/../config/app.php';
 require_once __DIR__ . '/../includes/auth.php';
 requireAdmin();

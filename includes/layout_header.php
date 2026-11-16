@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 /**
  * ============================================================================
  * FILE: includes/layout_header.php (Template Bagian Atas / Header Halaman)
@@ -8,6 +9,8 @@
  * bilah atas (topbar) yang menampilkan judul halaman serta info user yang sedang login.
  * ============================================================================
  */
+=======
+>>>>>>> d3a474d9f86ca513d111ac9b325518e17d65db66
 $pageTitle = $pageTitle ?? 'Perpustakaan';
 $pageDescription = $pageDescription ?? '';
 require_once __DIR__ . '/../config/app.php';

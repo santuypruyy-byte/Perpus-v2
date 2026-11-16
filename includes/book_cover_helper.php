@@ -1,5 +1,6 @@
 <?php
 /**
+<<<<<<< HEAD
  * ============================================================================
  * FILE: includes/book_cover_helper.php (Helper Sampul Buku & API Eksternal)
  * ============================================================================
@@ -15,6 +16,8 @@
  * ============================================================================
  */
 /**
+=======
+>>>>>>> d3a474d9f86ca513d111ac9b325518e17d65db66
  * Helper cover buku dan upload e-book.
  * Cover buku sekarang diambil otomatis dari Google Books API
  * berdasarkan judul + pengarang. Jika Google Books tidak menemukan

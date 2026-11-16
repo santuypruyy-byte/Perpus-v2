@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 /**
  * ============================================================================
  * FILE: dashboard/dashboard.php (Halaman Utama & Ringkasan Statistik OPAC)
@@ -15,6 +16,9 @@
  * 4. Mendukung filter pencarian berdasarkan kata kunci, kategori, penerbit, tahun, dan status.
  * ============================================================================
  */
+=======
+
+>>>>>>> d3a474d9f86ca513d111ac9b325518e17d65db66
 error_reporting(E_ALL);
 ini_set('display_errors', '1');
 ini_set('display_startup_errors', '1');
