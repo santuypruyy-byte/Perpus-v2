@@ -1,0 +1,33 @@
+================================================================================
+PANDUAN CEPAT MENJELASKAN PROJEK UKK PERPUSTAKAAN (UNTUK SIDANG / PENGUJI)
+================================================================================
+
+1. STRUKTUR FOLDER PROJEK (ARSITEKTUR MODULAR)
+   - config/     : Pengaturan inti aplikasi (app.php) & koneksi database (connection.php).
+   - includes/   : Komponen yang dipakai berulang (auth.php untuk keamanan/session,
+                   header, sidebar, footer, serta helper notifikasi & sampul buku).
+   - auth/       : Proses masuk (login.php), daftar anggota baru (daftar.php), & keluar (logout.php).
+   - dashboard/  : Halaman utama yang menampilkan statistik perpustakaan & katalog buku.
+   - buku/       : CRUD data buku lengkap dengan upload sampul, auto-cover API, e-book PDF,
+                   dan Soft Delete (arsip buku agar riwayat transaksi aman).
+   - transaksi/  : Inti sistem perpustakaan -> peminjaman.php, pengembalian.php (ACC, tolak,
+                   kembali + hitung denda otomatis), dan riwayat_buku.php.
+   - pencarian/  : Pencarian katalog OPAC dengan filter dinamis (judul, kategori, penerbit, tahun).
+   - anggota/, kategori/, penerbit/, rak/, user/ : Pengelolaan Data Master oleh Admin.
+   - database/   : File struktur & isi awal database SQL (buku_ukk_v1.sql).
+
+2. 4 ISTILAH TEKNIS KUNCI YANG SERING DITANYAKAN PENGUJI
+   a. Prepared Statements ($conn->prepare & bind_param):
+      "Digunakan di semua query input user untuk mencegah serangan SQL Injection,
+       karena input pengguna dipisahkan dari perintah SQL."
+   b. Database Transaction (begin_transaction, commit, rollback):
+      "Dipakai di pendaftaran dan transaksi pengembalian buku. Jika ada satu proses
+       yang gagal di tengah jalan, sistem otomatis membatalkan semua perubahan (rollback)
+       agar stok dan status transaksi tidak pincang."
+   c. LEFT JOIN & COALESCE:
+      "Dipakai saat menampilkan data buku agar buku tetap muncul di daftar meskipun
+       kategori atau raknya belum diisi (NULL), dan COALESCE mengubah nilai NULL menjadi 0."
+   d. Soft Delete (status_aktif = 0) & Snapshot Data:
+      "Saat buku dihapus, datanya tidak benar-benar hilang dari database melainkan diarsipkan
+       (status_aktif = 0) supaya riwayat peminjaman masa lalu tetap valid dan tidak error."
+================================================================================
